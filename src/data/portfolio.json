@@ -1,0 +1,409 @@
+{
+  "hero": {
+    "name": "Pratik Ravasaheb Thete",
+    "titles": ["AI & Data Science Engineer", "Full Stack Developer", "Machine Learning Enthusiast", "Problem Solver"],
+    "introduction": "I build intelligent systems and elegant interfaces from neural networks to production-ready web apps. Passionate about turning data into decisions and ideas into impactful software.",
+    "profileImage": "/assets/profile.png",
+    "resumeUrl": "/assets/Pratik_Thete_Resume.pdf",
+    "socials": {
+      "github": "https://github.com/thetepratik/",
+      "linkedin": "https://www.linkedin.com/in/pratikthete77",
+      "twitter": "https://twitter.com/pratikthete",
+      "email": "pratik.1252010016@vit.edu"
+    }
+  },
+  "about": {
+    "profileImage": "/assets/profile.png",
+    "bio": "I'm a third-year B.Tech student specializing in AI & Data Science at VIT, driven by a passion for building systems that are not just functional, but intelligent. I thrive at the intersection of machine learning, full-stack development, and real-world problem solving.",
+    "objective": "To leverage my expertise in AI/ML and full-stack development to contribute to innovative, data-driven solutions at a forward-thinking organization, while continuously growing as an engineer and researcher.",
+    "education": {
+      "institution": "Vishwakarma Institute of Technology (VIT), Pune",
+      "degree": "B.Tech in AI & Data Science",
+      "year": "2025 – 2028",
+      "cgpa": "9.45"
+    },
+    "interests": ["Machine Learning", "Deep Learning", "Android Development", "Full Stack Development", "Data Engineering", "Open Source"]
+  },
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "level": 92 },
+        { "name": "Java", "level": 80 },
+        { "name": "C++", "level": 75 }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "icon": "monitor",
+      "skills": [
+        { "name": "React.js", "level": 90 },
+        { "name": "HTML5", "level": 95 },
+        { "name": "CSS3", "level": 88 },
+        { "name": "XML", "level": 85 }
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "server",
+      "skills": [
+        { "name": "Node.js", "level": 85 },
+        { "name": "Express.js", "level": 82 },
+        { "name": "FastAPI", "level": 78 }
+      ]
+    },
+    {
+      "category": "Database",
+      "icon": "database",
+      "skills": [
+        { "name": "MongoDB", "level": 83 },
+        { "name": "MySQL", "level": 80 },
+        { "name": "PostgreSQL", "level": 72 }
+      ]
+    },
+    {
+      "category": "AI / ML",
+      "icon": "cpu",
+      "skills": [
+        { "name": "TensorFlow", "level": 85 },
+        { "name": "Scikit-Learn", "level": 88 },
+        { "name": "Pandas", "level": 92 },
+        { "name": "NumPy", "level": 90 }
+      ]
+    },
+    {
+      "category": "Tools & DevOps",
+      "icon": "tool",
+      "skills": [
+        { "name": "Git & GitHub", "level": 90 },
+        { "name": "Docker", "level": 72 },
+        { "name": "Postman", "level": 85 },
+        { "name": "Figma", "level": 70 }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "AI-Powered Weather Analytics",
+      "thumbnail": "/assets/projects/weather-thumb.jpg",
+      "description": "A full-stack weather application with ML-based forecast predictions, real-time OpenWeatherMap integration, and an elegant glassmorphism UI.",
+      "category": "AI/ML",
+      "technologies": ["Python", "React", "TensorFlow", "Node.js", "OpenWeatherMap API", "MongoDB"],
+      "github": "https://github.com/pratikthete/weather-ai",
+      "demo": "https://weather-ai.pratikthete.dev",
+      "featured": true,
+      "views": 0,
+      "overview": "A sophisticated weather forecasting platform that goes beyond traditional APIs by incorporating ML models trained on historical data to improve prediction accuracy by up to 23%.",
+      "problem": "Standard weather APIs provide generic forecasts. This project solves hyper-local weather prediction using custom ML models trained on regional historical patterns.",
+      "features": ["Real-time weather data from OpenWeatherMap", "ML-powered 7-day forecast with confidence scores", "Interactive charts and heatmaps", "User location detection", "Offline caching with PWA support", "Multi-city comparison"],
+      "challenges": ["Training models on sparse historical data", "Balancing API call limits with real-time needs", "Mobile-first responsive design with complex charts"],
+      "learnings": ["Advanced data preprocessing for time-series forecasting", "Integrating Python ML models with Node.js via microservices", "Optimizing React performance with large datasets"],
+      "images": ["/assets/projects/weather-1.jpg", "/assets/projects/weather-2.jpg", "/assets/projects/weather-3.jpg", "/assets/projects/weather-4.jpg"]
+    },
+    {
+      "id": "2",
+      "title": "SmartResume — AI Resume Analyzer",
+      "thumbnail": "/assets/projects/resume-thumb.jpg",
+      "description": "An NLP-powered resume analysis tool that scores, improves, and tailors resumes for ATS systems and specific job descriptions.",
+      "category": "AI/ML",
+      "technologies": ["Python", "FastAPI", "spaCy", "React", "MongoDB", "Docker"],
+      "github": "https://github.com/pratikthete/smart-resume",
+      "demo": "https://smartresume.pratikthete.dev",
+      "featured": true,
+      "views": 0,
+      "overview": "SmartResume leverages NLP to parse, score, and improve resumes in real-time against job descriptions, helping candidates optimize for ATS systems.",
+      "problem": "Over 75% of resumes are rejected by ATS before a human reads them. This tool solves the cold-start problem for job seekers.",
+      "features": ["PDF/DOCX resume parsing", "ATS score calculation", "Keyword gap analysis", "AI-powered rewrite suggestions", "Job description matching", "Export improved resume"],
+      "challenges": ["Handling diverse resume formats and layouts", "Accurately extracting structured data from unstructured text", "Building a scoring system that reflects real ATS behavior"],
+      "learnings": ["Production-grade NLP pipelines with spaCy", "FastAPI for high-performance REST APIs", "Containerizing Python ML apps with Docker"],
+      "images": ["/assets/projects/resume-1.jpg", "/assets/projects/resume-2.jpg", "/assets/projects/resume-3.jpg", "/assets/projects/resume-4.jpg"]
+    },
+    {
+      "id": "3",
+      "title": "DataViz Studio — No-Code Analytics",
+      "thumbnail": "/assets/projects/dataviz-thumb.jpg",
+      "description": "A drag-and-drop data visualization platform that lets non-technical users create beautiful dashboards from CSV/Excel data.",
+      "category": "Data Science",
+      "technologies": ["React", "D3.js", "Node.js", "Express", "MongoDB", "Python"],
+      "github": "https://github.com/pratikthete/dataviz-studio",
+      "demo": "https://dataviz.pratikthete.dev",
+      "featured": false,
+      "views": 0,
+      "overview": "DataViz Studio democratizes data analytics by providing a no-code interface for creating interactive visualizations from raw data files.",
+      "problem": "Data visualization tools are either too complex for non-technical users or too limited for meaningful analysis.",
+      "features": ["CSV/Excel drag-and-drop upload", "15+ chart types with D3.js", "Real-time data filtering", "Dashboard templates", "Share & embed dashboards", "Export as PNG/PDF"],
+      "challenges": ["Rendering large datasets without performance degradation", "Creating an intuitive drag-and-drop interface", "Supporting multiple chart types with a unified API"],
+      "learnings": ["Advanced D3.js data binding and transitions", "Virtual DOM optimization for large datasets", "Accessible drag-and-drop UX patterns"],
+      "images": ["/assets/projects/dataviz-1.jpg", "/assets/projects/dataviz-2.jpg", "/assets/projects/dataviz-3.jpg", "/assets/projects/dataviz-4.jpg"]
+    },
+    {
+      "id": "4",
+      "title": "MediScan — Medical Image AI",
+      "thumbnail": "/assets/projects/mediscan-thumb.jpg",
+      "description": "A deep learning application for classifying chest X-rays to detect pneumonia with 94.2% accuracy using CNN architecture.",
+      "category": "AI/ML",
+      "technologies": ["Python", "TensorFlow", "Keras", "Flask", "React", "OpenCV"],
+      "github": "https://github.com/pratikthete/mediscan",
+      "demo": "https://mediscan.pratikthete.dev",
+      "featured": true,
+      "views": 0,
+      "overview": "MediScan is a computer vision system trained on 5,000+ chest X-rays that helps radiologists identify pneumonia with high confidence scores.",
+      "problem": "Radiology backlogs cause delayed diagnoses. An AI-assisted pre-screening tool can prioritize urgent cases and support doctors.",
+      "features": ["X-ray image upload and preprocessing", "CNN-based classification with 94.2% accuracy", "Confidence heatmap visualization (Grad-CAM)", "Batch processing support", "Doctor report generation", "Patient history tracking"],
+      "challenges": ["Class imbalance in medical training data", "Implementing Grad-CAM for model explainability", "Ensuring HIPAA-compliant data handling"],
+      "learnings": ["Transfer learning with VGG16 and ResNet architectures", "Medical imaging preprocessing pipelines", "Model explainability techniques for high-stakes AI"],
+      "images": ["/assets/projects/mediscan-1.jpg", "/assets/projects/mediscan-2.jpg", "/assets/projects/mediscan-3.jpg", "/assets/projects/mediscan-4.jpg"]
+    },
+    {
+      "id": "5",
+      "title": "CodeCollab — Real-Time IDE",
+      "thumbnail": "/assets/projects/codecollab-thumb.jpg",
+      "description": "A browser-based collaborative coding environment with real-time sync, syntax highlighting, and AI code completion.",
+      "category": "Web Development",
+      "technologies": ["React", "Node.js", "Socket.io", "Monaco Editor", "Redis", "Docker"],
+      "github": "https://github.com/pratikthete/codecollab",
+      "demo": "https://codecollab.pratikthete.dev",
+      "featured": false,
+      "views": 0,
+      "overview": "CodeCollab enables multiple developers to write, run, and share code in real-time directly from the browser with zero setup.",
+      "problem": "Remote pair programming requires cumbersome screen-sharing tools. CodeCollab provides a native shared IDE experience.",
+      "features": ["Real-time collaborative editing (CRDT)", "50+ language syntax highlighting", "In-browser code execution", "Integrated terminal", "Session sharing via URL", "Voice chat integration"],
+      "challenges": ["Implementing conflict-free replicated data types (CRDT)", "Low-latency WebSocket communication at scale", "Sandboxed code execution security"],
+      "learnings": ["WebSocket and Socket.io real-time patterns", "CRDT algorithms for collaborative text editing", "Sandboxed execution environments with Docker"],
+      "images": ["/assets/projects/codecollab-1.jpg", "/assets/projects/codecollab-2.jpg", "/assets/projects/codecollab-3.jpg", "/assets/projects/codecollab-4.jpg"]
+    },
+    {
+      "id": "6",
+      "title": "FinTrack — Personal Finance AI",
+      "thumbnail": "/assets/projects/fintrack-thumb.jpg",
+      "description": "An AI-powered personal finance tracker with expense categorization, budget forecasting, and spending anomaly detection.",
+      "category": "Full Stack",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Python", "scikit-learn", "Plaid API"],
+      "github": "https://github.com/pratikthete/fintrack",
+      "demo": "https://fintrack.pratikthete.dev",
+      "featured": false,
+      "views": 0,
+      "overview": "FinTrack connects to bank accounts and uses ML to automatically categorize expenses, predict future spending, and flag unusual transactions.",
+      "problem": "People lack visibility into their spending patterns. Manual tracking is tedious; FinTrack automates the entire process intelligently.",
+      "features": ["Bank account sync via Plaid", "AI expense categorization", "Monthly budget forecasting", "Anomaly detection alerts", "Goal-based savings tracker", "Tax-ready expense reports"],
+      "challenges": ["Secure OAuth integration with banking APIs", "Training a categorization model on diverse transaction descriptions", "Cross-platform mobile performance optimization"],
+      "learnings": ["Plaid API integration and OAuth security flows", "Text classification for financial transactions", "React Native performance optimization"],
+      "images": ["/assets/projects/fintrack-1.jpg", "/assets/projects/fintrack-2.jpg", "/assets/projects/fintrack-3.jpg", "/assets/projects/fintrack-4.jpg"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "company": "Innovation Hub Private Limited ",
+      "role": "Web Developer Intern",
+      "duration": "June 2024 – July 2024",
+      "location": "Nashik, India",
+      "description": "Developed and deployed NLP pipelines for sentiment analysis and entity extraction on customer feedback data. Improved model accuracy by 18% through feature engineering and hyperparameter tuning.",
+      "skills": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT" ,"PHP", "MYSQL"]
+    },
+    {
+      "id": "2",
+      "company": "Innovation Hub Private Limited ",
+      "role": "Android Developer Intern",
+      "duration": "June 2026 – Augest 2026",
+      "location": "Nashik, India (Hybrid)",
+      "description": "Assisted in research on federated learning for privacy-preserving medical AI. Implemented baseline CNN models and contributed to a paper submitted at ICML 2024.",
+      "skills": ["XML", "JAVA", "FireBase"]
+    },
+    {
+      "id": "3",
+      "company": "Freelance",
+      "role": "Full Stack Developer",
+      "duration": "Jan 2026 – Present",
+      "location": "Remote",
+      "description": "Built and deployed 5+ web applications for clients across e-commerce, healthcare, and education sectors. Managed end-to-end development from UI design to cloud deployment.",
+      "skills": ["React", "Node.js", "MongoDB", "WebSocket", "FastAPI"]
+    }
+  ],
+  "research": [
+    {
+      "id": "1",
+      "title": "Online Bookstore With Review Enhanced Hybrid Recommendation System",
+      "conference": "International Conference on Emerging Trends in Computers & Communication 2025",
+      "year": "21 & 22 November 2025",
+      "abstract": "",
+      "pdf": "/assets/papers/federated-medical-ai.pdf",
+      "status": "Published"
+    },
+    {
+      "id": "2",
+      "title": "Enhancing Collaborative Code Editors with Semantic Awareness",
+      "conference": "International Conference on Computing Theory and Wireless Communication 2026",
+      "year": "1 & 2 April 2026",
+      "abstract": "Because they allow for simultaneous code editing, real-time synchronization, and shared awareness among developers, real-time collaborative code editors are frequently used to facilitate dispersed software development. The standard collaborative code editors provide many of the basic functionalities required for multi-user editing (syntax highlighting, role-independent collaboration, etc.) and many do not provide any context regarding developers' intentions, semantic meaning of code or types of edits being made",
+      "pdf": "/assets/papers/transformer-low-resource.pdf",
+      "status": "Published"
+    }
+  ],
+  "achievements": [
+    {
+    
+      "id": "1",
+      "title": "ICON Club Coords",
+      "description": "Selected as Project Coordinator at VIT Pune, Build appliaction in web and AI development.",
+      "date": "Aug 2025",
+      "certificate": "/assets/certs/gdsc-lead.pdf",
+      "icon": "star"
+    },
+    {
+      "id": "2",
+      "title": "Top 100 — HackerEarth ML Challenge",
+      "description": "Ranked in the top 100 out of 8,000+ participants in HackerEarth's national machine learning competition.",
+      "date": "Mar 2024",
+      "certificate": "/assets/certs/hackerearth.pdf",
+      "icon": "award"
+    },
+    {
+      "id": "4",
+      "title": "Best Research Paper — VIT Symposium",
+      "description": "Awarded Best Research Paper at VIT's annual technology symposium for work on privacy-preserving federated learning.",
+      "date": "Jan 2024",
+      "certificate": "/assets/certs/best-paper.pdf",
+      "icon": "book"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "Deep Learning Specialization",
+      "organization": "Coursera / deeplearning.ai",
+      "date": "Sep 2023",
+      "credential": "https://coursera.org/verify/DL-SPEC-123",
+      "image": "/assets/certs/dl-specialization.jpg"
+    },
+    {
+      "id": "2",
+      "name": "AWS Certified Cloud Practitioner",
+      "organization": "Amazon Web Services",
+      "date": "Nov 2023",
+      "credential": "https://aws.amazon.com/verify/AWS-CCP-456",
+      "image": "/assets/certs/aws-ccp.jpg"
+    },
+    {
+      "id": "3",
+      "name": "TensorFlow Developer Certificate",
+      "organization": "Google",
+      "date": "Jan 2024",
+      "credential": "https://developers.google.com/certification/directory/tensorflow",
+      "image": "/assets/certs/tensorflow-dev.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Meta Front-End Developer",
+      "organization": "Meta / Coursera",
+      "date": "Mar 2024",
+      "credential": "https://coursera.org/verify/META-FE-789",
+      "image": "/assets/certs/meta-frontend.jpg"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "Vishwakarma Institute of Technology (VIT), Pune",
+      "degree": "B.Tech — AI & Data Science",
+      "duration": "2025 – 2028",
+      "grade": "CGPA: 9.45 / 10",
+      "current": true
+    },
+    {
+      "id": "2",
+      "institution": "MET Bhujbal Knowledge City",
+      "degree": "Diploma",
+      "duration": "2022 – 2025",
+      "grade": "Percentage: 94.00%",
+      "current": false
+    },
+    {
+      "id": "3",
+      "institution": "Maratha HighSchool, Nashik",
+      "degree": "SSC (10th Board)",
+      "duration": "2022",
+      "grade": "Percentage: 89.40%",
+      "current": false
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Dr. Anjali Sharma",
+      "position": "Associate Professor, AI & DS",
+      "company": "VIT Pune",
+      "photo": "/assets/testimonials/anjali.jpg",
+      "review": "Pratik is one of the most inquisitive students I've mentored. His ability to bridge theory and implementation, especially in ML research, is exceptional. He consistently delivers work that exceeds expectations."
+    },
+    {
+      "id": "2",
+      "name": "Rohan Kapoor",
+      "position": "Engineering Manager",
+      "company": "TechNova AI Labs",
+      "photo": "/assets/testimonials/rohan.jpg",
+      "review": "During his internship, Pratik independently designed and shipped a production NLP pipeline that reduced our manual labeling effort by 40%. His initiative and code quality are hire-worthy."
+    },
+    {
+      "id": "3",
+      "name": "Sneha Patil",
+      "position": "Co-founder & CTO",
+      "company": "EdTech Startup",
+      "photo": "/assets/testimonials/sneha.jpg",
+      "review": "We hired Pratik as a freelance developer and he delivered a full-stack platform in 3 weeks that we thought would take 2 months. His communication, reliability, and technical depth are rare."
+    }
+  ],
+  "github": {
+    "username": "pratikthete",
+    "stats": {
+      "repos": 42,
+      "stars": 187,
+      "followers": 94,
+      "contributions": 1243
+    },
+    "topLanguages": [
+      { "name": "Python", "percent": 38 },
+      { "name": "JavaScript", "percent": 30 },
+      { "name": "TypeScript", "percent": 15 },
+      { "name": "Java", "percent": 10 },
+      { "name": "C++", "percent": 7 }
+    ]
+  },
+  "blog": [
+    {
+      "id": "1",
+      "title": "Building a Production-Ready NLP Pipeline in Python",
+      "banner": "/assets/blog/nlp-pipeline.jpg",
+      "date": "Apr 2024",
+      "readTime": "8 min",
+      "tags": ["Python", "NLP", "Machine Learning"],
+      "content": "A comprehensive guide to building scalable, production-ready NLP pipelines using spaCy, FastAPI, and Docker..."
+    },
+    {
+      "id": "2",
+      "title": "Federated Learning: Privacy-First Machine Learning",
+      "banner": "/assets/blog/federated.jpg",
+      "date": "Feb 2024",
+      "readTime": "12 min",
+      "tags": ["Federated Learning", "Privacy", "AI"],
+      "content": "Exploring the fundamentals of federated learning and how it enables collaborative model training without sharing sensitive data..."
+    },
+    {
+      "id": "3",
+      "title": "React Performance Optimization: From 3s to 300ms",
+      "banner": "/assets/blog/react-perf.jpg",
+      "date": "Dec 2023",
+      "readTime": "10 min",
+      "tags": ["React", "Performance", "Frontend"],
+      "content": "Practical techniques for dramatically improving React application performance using memoization, code splitting, and virtualization..."
+    }
+  ],
+  "seo": {
+    "title": "Pratik Thete — AI & Data Science Engineer | Full Stack Developer",
+    "description": "Portfolio of Pratik Thete, an AI & Data Science engineering student specializing in machine learning, full-stack development, and data engineering.",
+    "keywords": ["AI Engineer", "Data Science", "Machine Learning", "Full Stack Developer", "React Developer", "Python", "VIT Pune"],
+    "ogImage": "/assets/og-image.jpg"
+  }
+}
