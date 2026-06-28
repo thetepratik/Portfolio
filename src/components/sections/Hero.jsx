@@ -155,9 +155,9 @@ export default function HeroSection() {
             </div>
 
             <div className="hero-chip hero-chip-1">
-              <span className="hero-chip-icon">🏆</span>
+              <span className="hero-chip-icon"></span>
               <div>
-                <div style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-primary)' }}>SIH Winner</div>
+                <div style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-primary)' }}>Software Developer</div>
                 <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)' }}>2023</div>
               </div>
             </div>
