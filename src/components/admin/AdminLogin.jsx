@@ -193,7 +193,7 @@ export default function AdminLogin() {
                   Verifying...
                 </>
               ) : (
-                <>🚀 Sign In to Dashboard</>
+                <> Sign In to Dashboard</>
               )}
             </button>
           </form>

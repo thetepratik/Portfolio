@@ -1,10 +1,12 @@
-https://portfolio-kappa-jade-75.vercel.app/
-
-
 {
   "hero": {
     "name": "Pratik Ravasaheb Thete",
-    "titles": ["AI & Data Science Engineer", "Full Stack Developer", "Machine Learning Enthusiast", "Problem Solver"],
+    "titles": [
+      "AI & Data Science Engineer",
+      "Full Stack Developer",
+      "Machine Learning Enthusiast",
+      "Problem Solver"
+    ],
     "introduction": "I build intelligent systems and elegant interfaces from neural networks to production-ready web apps. Passionate about turning data into decisions and ideas into impactful software.",
     "profileImage": "/assets/profile.png",
     "resumeUrl": "/assets/Pratik_Thete_Resume.pdf",
@@ -25,7 +27,14 @@ https://portfolio-kappa-jade-75.vercel.app/
       "year": "2025 – 2028",
       "cgpa": "9.45"
     },
-    "interests": ["Machine Learning", "Deep Learning", "Android Development", "Full Stack Development", "Data Engineering", "Open Source"]
+    "interests": [
+      "Machine Learning",
+      "Deep Learning",
+      "Android Development",
+      "Full Stack Development",
+      "Data Engineering",
+      "Open Source"
+    ]
   },
   "skills": [
     {
@@ -89,39 +98,115 @@ https://portfolio-kappa-jade-75.vercel.app/
   "projects": [
     {
       "id": "1",
-      "title": "AI-Powered Weather Analytics",
-      "thumbnail": "/assets/projects/weather-thumb.jpg",
-      "description": "A full-stack weather application with ML-based forecast predictions, real-time OpenWeatherMap integration, and an elegant glassmorphism UI.",
+      "title": "AI Student Mentor System",
+      "thumbnail": "/assets/projects/ai-student-mentor-thumb.jpg",
+      "description": "An AI-powered student mentoring platform that provides personalized academic guidance, study planning, career recommendations, and an intelligent chatbot for real-time student support.",
       "category": "AI/ML",
-      "technologies": ["Python", "React", "TensorFlow", "Node.js", "OpenWeatherMap API", "MongoDB"],
-      "github": "https://github.com/pratikthete/weather-ai",
-      "demo": "https://weather-ai.pratikthete.dev",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "Python",
+        "FastAPI",
+        "MongoDB",
+        "JWT",
+        "Machine Learning",
+        "NLP"
+      ],
+      "github": "https://github.com/thetepratik/ai-student-mentor",
+      "demo": "https://your-demo-link.com",
       "featured": true,
       "views": 0,
-      "overview": "A sophisticated weather forecasting platform that goes beyond traditional APIs by incorporating ML models trained on historical data to improve prediction accuracy by up to 23%.",
-      "problem": "Standard weather APIs provide generic forecasts. This project solves hyper-local weather prediction using custom ML models trained on regional historical patterns.",
-      "features": ["Real-time weather data from OpenWeatherMap", "ML-powered 7-day forecast with confidence scores", "Interactive charts and heatmaps", "User location detection", "Offline caching with PWA support", "Multi-city comparison"],
-      "challenges": ["Training models on sparse historical data", "Balancing API call limits with real-time needs", "Mobile-first responsive design with complex charts"],
-      "learnings": ["Advanced data preprocessing for time-series forecasting", "Integrating Python ML models with Node.js via microservices", "Optimizing React performance with large datasets"],
-      "images": ["/assets/projects/weather-1.jpg", "/assets/projects/weather-2.jpg", "/assets/projects/weather-3.jpg", "/assets/projects/weather-4.jpg"]
+      "overview": "AI Student Mentor System is a full-stack web application that leverages Artificial Intelligence to provide personalized learning assistance, career guidance, study roadmaps, performance analytics, and an interactive AI chatbot. The platform helps students improve their academic performance through data-driven insights and intelligent recommendations.",
+      "problem": "Students often struggle to find personalized academic guidance, organize study plans, and identify skill gaps. This application addresses these challenges by offering AI-driven mentoring, progress tracking, career recommendations, and instant academic support through an intelligent chatbot.",
+      "features": [
+        "AI-powered academic chatbot",
+        "Personalized study roadmap generation",
+        "Student performance analytics dashboard",
+        "Career guidance and skill recommendations",
+        "Sentiment analysis for student feedback",
+        "Secure authentication using JWT",
+        "Progress tracking and learning history",
+        "Admin dashboard for user and analytics management"
+      ],
+      "challenges": [
+        "Developing an intelligent chatbot capable of understanding academic queries",
+        "Integrating multiple AI models with the backend using FastAPI",
+        "Designing scalable REST APIs for real-time communication",
+        "Building an intuitive dashboard with performance visualizations"
+      ],
+      "learnings": [
+        "Developed and integrated AI services using Python FastAPI",
+        "Built scalable REST APIs with Node.js and Express.js",
+        "Implemented secure authentication using JWT and MongoDB",
+        "Applied NLP and Machine Learning techniques for personalized recommendations",
+        "Designed a responsive full-stack application with React.js and modern UI principles"
+      ],
+
+      "images": [
+        "/assets/projects/weather-1.jpg",
+        "/assets/projects/weather-2.jpg",
+        "/assets/projects/weather-3.jpg",
+        "/assets/projects/weather-4.jpg"
+      ]
     },
     {
       "id": "2",
-      "title": "SmartResume — AI Resume Analyzer",
-      "thumbnail": "/assets/projects/resume-thumb.jpg",
-      "description": "An NLP-powered resume analysis tool that scores, improves, and tailors resumes for ATS systems and specific job descriptions.",
-      "category": "AI/ML",
-      "technologies": ["Python", "FastAPI", "spaCy", "React", "MongoDB", "Docker"],
-      "github": "https://github.com/pratikthete/smart-resume",
-      "demo": "https://smartresume.pratikthete.dev",
+      "title": "Real-Time Collaborative Code Editor",
+      "thumbnail": "/assets/projects/code-editor-thumb.jpg",
+      "description": "A full-stack real-time collaborative code editor that enables multiple users to write, edit, and execute code simultaneously with live synchronization, integrated chat, and AI-powered code assistance.",
+      "category": "Full Stack",
+      "technologies": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Socket.io",
+        "Monaco Editor",
+        "JWT",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "OpenAI API"
+      ],
+      "github": "https://github.com/yourusername/realtime-code-editor",
+      "demo": "https://your-demo-link.com",
       "featured": true,
       "views": 0,
-      "overview": "SmartResume leverages NLP to parse, score, and improve resumes in real-time against job descriptions, helping candidates optimize for ATS systems.",
-      "problem": "Over 75% of resumes are rejected by ATS before a human reads them. This tool solves the cold-start problem for job seekers.",
-      "features": ["PDF/DOCX resume parsing", "ATS score calculation", "Keyword gap analysis", "AI-powered rewrite suggestions", "Job description matching", "Export improved resume"],
-      "challenges": ["Handling diverse resume formats and layouts", "Accurately extracting structured data from unstructured text", "Building a scoring system that reflects real ATS behavior"],
-      "learnings": ["Production-grade NLP pipelines with spaCy", "FastAPI for high-performance REST APIs", "Containerizing Python ML apps with Docker"],
-      "images": ["/assets/projects/resume-1.jpg", "/assets/projects/resume-2.jpg", "/assets/projects/resume-3.jpg", "/assets/projects/resume-4.jpg"]
+      "overview": "Real-Time Collaborative Code Editor is a full-stack web application that allows multiple developers to collaborate on the same codebase in real time. The platform provides synchronized code editing, secure room-based collaboration, live chat, AI-powered code generation, and instant code execution to enhance team productivity and remote programming.",
+      "problem": "Traditional code sharing methods are inefficient for pair programming and team collaboration because they lack real-time synchronization and integrated communication. This project solves these challenges by enabling multiple users to edit code simultaneously, communicate through live chat, and receive AI-assisted coding suggestions within a shared workspace.",
+      "features": [
+        "Real-time collaborative code editing using Socket.io",
+        "Secure room creation and joining with unique meeting IDs",
+        "Live code synchronization across multiple users",
+        "Integrated real-time chat for team communication",
+        "Monaco Editor with syntax highlighting and auto-completion",
+        "AI-powered code generation and debugging assistance",
+        "Run HTML, CSS, and JavaScript code with live preview",
+        "User authentication using JWT",
+        "Session history and project management",
+        "Responsive and modern user interface"
+      ],
+      "challenges": [
+        "Implementing low-latency real-time synchronization between multiple users",
+        "Handling concurrent edits without data conflicts",
+        "Integrating AI code generation into the collaborative workflow",
+        "Managing scalable Socket.io connections and secure room sessions"
+      ],
+      "learnings": [
+        "Developed real-time communication using Socket.io and WebSockets",
+        "Integrated Monaco Editor for a professional coding experience",
+        "Built scalable REST APIs using Node.js and Express.js",
+        "Implemented secure authentication and session management using JWT",
+        "Designed a collaborative system architecture with MongoDB and real-time event handling",
+        "Integrated AI APIs to provide intelligent code generation and programming assistance"
+      ],
+      "images": [
+        "/assets/projects/dataviz-1.jpg",
+        "/assets/projects/dataviz-2.jpg",
+        "/assets/projects/dataviz-3.jpg",
+        "/assets/projects/dataviz-4.jpg"
+      ]
     },
     {
       "id": "3",
@@ -129,17 +214,44 @@ https://portfolio-kappa-jade-75.vercel.app/
       "thumbnail": "/assets/projects/dataviz-thumb.jpg",
       "description": "A drag-and-drop data visualization platform that lets non-technical users create beautiful dashboards from CSV/Excel data.",
       "category": "Data Science",
-      "technologies": ["React", "D3.js", "Node.js", "Express", "MongoDB", "Python"],
+      "technologies": [
+        "React",
+        "D3.js",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Python"
+      ],
       "github": "https://github.com/pratikthete/dataviz-studio",
       "demo": "https://dataviz.pratikthete.dev",
       "featured": false,
       "views": 0,
       "overview": "DataViz Studio democratizes data analytics by providing a no-code interface for creating interactive visualizations from raw data files.",
       "problem": "Data visualization tools are either too complex for non-technical users or too limited for meaningful analysis.",
-      "features": ["CSV/Excel drag-and-drop upload", "15+ chart types with D3.js", "Real-time data filtering", "Dashboard templates", "Share & embed dashboards", "Export as PNG/PDF"],
-      "challenges": ["Rendering large datasets without performance degradation", "Creating an intuitive drag-and-drop interface", "Supporting multiple chart types with a unified API"],
-      "learnings": ["Advanced D3.js data binding and transitions", "Virtual DOM optimization for large datasets", "Accessible drag-and-drop UX patterns"],
-      "images": ["/assets/projects/dataviz-1.jpg", "/assets/projects/dataviz-2.jpg", "/assets/projects/dataviz-3.jpg", "/assets/projects/dataviz-4.jpg"]
+      "features": [
+        "CSV/Excel drag-and-drop upload",
+        "15+ chart types with D3.js",
+        "Real-time data filtering",
+        "Dashboard templates",
+        "Share & embed dashboards",
+        "Export as PNG/PDF"
+      ],
+      "challenges": [
+        "Rendering large datasets without performance degradation",
+        "Creating an intuitive drag-and-drop interface",
+        "Supporting multiple chart types with a unified API"
+      ],
+      "learnings": [
+        "Advanced D3.js data binding and transitions",
+        "Virtual DOM optimization for large datasets",
+        "Accessible drag-and-drop UX patterns"
+      ],
+      "images": [
+        "/assets/projects/dataviz-1.jpg",
+        "/assets/projects/dataviz-2.jpg",
+        "/assets/projects/dataviz-3.jpg",
+        "/assets/projects/dataviz-4.jpg"
+      ]
     },
     {
       "id": "4",
@@ -147,17 +259,44 @@ https://portfolio-kappa-jade-75.vercel.app/
       "thumbnail": "/assets/projects/mediscan-thumb.jpg",
       "description": "A deep learning application for classifying chest X-rays to detect pneumonia with 94.2% accuracy using CNN architecture.",
       "category": "AI/ML",
-      "technologies": ["Python", "TensorFlow", "Keras", "Flask", "React", "OpenCV"],
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "Flask",
+        "React",
+        "OpenCV"
+      ],
       "github": "https://github.com/pratikthete/mediscan",
       "demo": "https://mediscan.pratikthete.dev",
       "featured": true,
       "views": 0,
       "overview": "MediScan is a computer vision system trained on 5,000+ chest X-rays that helps radiologists identify pneumonia with high confidence scores.",
       "problem": "Radiology backlogs cause delayed diagnoses. An AI-assisted pre-screening tool can prioritize urgent cases and support doctors.",
-      "features": ["X-ray image upload and preprocessing", "CNN-based classification with 94.2% accuracy", "Confidence heatmap visualization (Grad-CAM)", "Batch processing support", "Doctor report generation", "Patient history tracking"],
-      "challenges": ["Class imbalance in medical training data", "Implementing Grad-CAM for model explainability", "Ensuring HIPAA-compliant data handling"],
-      "learnings": ["Transfer learning with VGG16 and ResNet architectures", "Medical imaging preprocessing pipelines", "Model explainability techniques for high-stakes AI"],
-      "images": ["/assets/projects/mediscan-1.jpg", "/assets/projects/mediscan-2.jpg", "/assets/projects/mediscan-3.jpg", "/assets/projects/mediscan-4.jpg"]
+      "features": [
+        "X-ray image upload and preprocessing",
+        "CNN-based classification with 94.2% accuracy",
+        "Confidence heatmap visualization (Grad-CAM)",
+        "Batch processing support",
+        "Doctor report generation",
+        "Patient history tracking"
+      ],
+      "challenges": [
+        "Class imbalance in medical training data",
+        "Implementing Grad-CAM for model explainability",
+        "Ensuring HIPAA-compliant data handling"
+      ],
+      "learnings": [
+        "Transfer learning with VGG16 and ResNet architectures",
+        "Medical imaging preprocessing pipelines",
+        "Model explainability techniques for high-stakes AI"
+      ],
+      "images": [
+        "/assets/projects/mediscan-1.jpg",
+        "/assets/projects/mediscan-2.jpg",
+        "/assets/projects/mediscan-3.jpg",
+        "/assets/projects/mediscan-4.jpg"
+      ]
     },
     {
       "id": "5",
@@ -165,17 +304,44 @@ https://portfolio-kappa-jade-75.vercel.app/
       "thumbnail": "/assets/projects/codecollab-thumb.jpg",
       "description": "A browser-based collaborative coding environment with real-time sync, syntax highlighting, and AI code completion.",
       "category": "Web Development",
-      "technologies": ["React", "Node.js", "Socket.io", "Monaco Editor", "Redis", "Docker"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Socket.io",
+        "Monaco Editor",
+        "Redis",
+        "Docker"
+      ],
       "github": "https://github.com/pratikthete/codecollab",
       "demo": "https://codecollab.pratikthete.dev",
       "featured": false,
       "views": 0,
       "overview": "CodeCollab enables multiple developers to write, run, and share code in real-time directly from the browser with zero setup.",
       "problem": "Remote pair programming requires cumbersome screen-sharing tools. CodeCollab provides a native shared IDE experience.",
-      "features": ["Real-time collaborative editing (CRDT)", "50+ language syntax highlighting", "In-browser code execution", "Integrated terminal", "Session sharing via URL", "Voice chat integration"],
-      "challenges": ["Implementing conflict-free replicated data types (CRDT)", "Low-latency WebSocket communication at scale", "Sandboxed code execution security"],
-      "learnings": ["WebSocket and Socket.io real-time patterns", "CRDT algorithms for collaborative text editing", "Sandboxed execution environments with Docker"],
-      "images": ["/assets/projects/codecollab-1.jpg", "/assets/projects/codecollab-2.jpg", "/assets/projects/codecollab-3.jpg", "/assets/projects/codecollab-4.jpg"]
+      "features": [
+        "Real-time collaborative editing (CRDT)",
+        "50+ language syntax highlighting",
+        "In-browser code execution",
+        "Integrated terminal",
+        "Session sharing via URL",
+        "Voice chat integration"
+      ],
+      "challenges": [
+        "Implementing conflict-free replicated data types (CRDT)",
+        "Low-latency WebSocket communication at scale",
+        "Sandboxed code execution security"
+      ],
+      "learnings": [
+        "WebSocket and Socket.io real-time patterns",
+        "CRDT algorithms for collaborative text editing",
+        "Sandboxed execution environments with Docker"
+      ],
+      "images": [
+        "/assets/projects/codecollab-1.jpg",
+        "/assets/projects/codecollab-2.jpg",
+        "/assets/projects/codecollab-3.jpg",
+        "/assets/projects/codecollab-4.jpg"
+      ]
     },
     {
       "id": "6",
@@ -183,17 +349,44 @@ https://portfolio-kappa-jade-75.vercel.app/
       "thumbnail": "/assets/projects/fintrack-thumb.jpg",
       "description": "An AI-powered personal finance tracker with expense categorization, budget forecasting, and spending anomaly detection.",
       "category": "Full Stack",
-      "technologies": ["React Native", "Node.js", "MongoDB", "Python", "scikit-learn", "Plaid API"],
+      "technologies": [
+        "React Native",
+        "Node.js",
+        "MongoDB",
+        "Python",
+        "scikit-learn",
+        "Plaid API"
+      ],
       "github": "https://github.com/pratikthete/fintrack",
       "demo": "https://fintrack.pratikthete.dev",
       "featured": false,
       "views": 0,
       "overview": "FinTrack connects to bank accounts and uses ML to automatically categorize expenses, predict future spending, and flag unusual transactions.",
       "problem": "People lack visibility into their spending patterns. Manual tracking is tedious; FinTrack automates the entire process intelligently.",
-      "features": ["Bank account sync via Plaid", "AI expense categorization", "Monthly budget forecasting", "Anomaly detection alerts", "Goal-based savings tracker", "Tax-ready expense reports"],
-      "challenges": ["Secure OAuth integration with banking APIs", "Training a categorization model on diverse transaction descriptions", "Cross-platform mobile performance optimization"],
-      "learnings": ["Plaid API integration and OAuth security flows", "Text classification for financial transactions", "React Native performance optimization"],
-      "images": ["/assets/projects/fintrack-1.jpg", "/assets/projects/fintrack-2.jpg", "/assets/projects/fintrack-3.jpg", "/assets/projects/fintrack-4.jpg"]
+      "features": [
+        "Bank account sync via Plaid",
+        "AI expense categorization",
+        "Monthly budget forecasting",
+        "Anomaly detection alerts",
+        "Goal-based savings tracker",
+        "Tax-ready expense reports"
+      ],
+      "challenges": [
+        "Secure OAuth integration with banking APIs",
+        "Training a categorization model on diverse transaction descriptions",
+        "Cross-platform mobile performance optimization"
+      ],
+      "learnings": [
+        "Plaid API integration and OAuth security flows",
+        "Text classification for financial transactions",
+        "React Native performance optimization"
+      ],
+      "images": [
+        "/assets/projects/fintrack-1.jpg",
+        "/assets/projects/fintrack-2.jpg",
+        "/assets/projects/fintrack-3.jpg",
+        "/assets/projects/fintrack-4.jpg"
+      ]
     }
   ],
   "experience": [
@@ -204,7 +397,7 @@ https://portfolio-kappa-jade-75.vercel.app/
       "duration": "June 2024 – July 2024",
       "location": "Nashik, India",
       "description": "Developed and deployed NLP pipelines for sentiment analysis and entity extraction on customer feedback data. Improved model accuracy by 18% through feature engineering and hyperparameter tuning.",
-      "skills": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT" ,"PHP", "MYSQL"]
+      "skills": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT", "PHP", "MYSQL"]
     },
     {
       "id": "2",
@@ -247,7 +440,6 @@ https://portfolio-kappa-jade-75.vercel.app/
   ],
   "achievements": [
     {
-    
       "id": "1",
       "title": "ICON Club Coords",
       "description": "Selected as Project Coordinator at VIT Pune, Build appliaction in web and AI development.",
@@ -359,7 +551,7 @@ https://portfolio-kappa-jade-75.vercel.app/
     }
   ],
   "github": {
-    "username": "pratikthete",
+    "username": "thetepratik",
     "stats": {
       "repos": 42,
       "stars": 187,
@@ -406,7 +598,15 @@ https://portfolio-kappa-jade-75.vercel.app/
   "seo": {
     "title": "Pratik Thete — AI & Data Science Engineer | Full Stack Developer",
     "description": "Portfolio of Pratik Thete, an AI & Data Science engineering student specializing in machine learning, full-stack development, and data engineering.",
-    "keywords": ["AI Engineer", "Data Science", "Machine Learning", "Full Stack Developer", "React Developer", "Python", "VIT Pune"],
+    "keywords": [
+      "AI Engineer",
+      "Data Science",
+      "Machine Learning",
+      "Full Stack Developer",
+      "React Developer",
+      "Python",
+      "VIT Pune"
+    ],
     "ogImage": "/assets/og-image.jpg"
   }
 }
