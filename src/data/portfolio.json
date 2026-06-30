@@ -213,7 +213,7 @@
       "title": "Online Book Store Review & Recommendation System",
       "thumbnail": "/assets/projects/bookstore-thumb.jpg",
       "description": "A full-stack online bookstore platform that enables users to browse books, write reviews, rate books, and receive personalized book recommendations using machine learning algorithms.",
-      "category": "Full Stack / Machine Learning",
+      "category": ["Full Stack","AI/ML"],
       "technologies": [
         "React.js",
         "Node.js",
@@ -270,7 +270,7 @@
       "title": "Student Performance Prediction System",
       "thumbnail": "/assets/projects/student-performance-thumb.jpg",
       "description": "An AI-powered student performance prediction system that analyzes academic data, predicts student performance, generates personalized learning roadmaps, and provides intelligent academic assistance through an integrated chatbot.",
-      "category": "AI/ML",
+      "category": ["AI/ML", "Full Stack"],
       "technologies": [
         "React.js",
         "Node.js",
@@ -328,7 +328,7 @@
       "title": "Meghdoot - Android Weather Application",
       "thumbnail": "/assets/projects/meghdoot-weather-thumb.jpg",
       "description": "A native Android weather application built with Java and XML that provides real-time weather updates, 7-day forecasts, location-based weather information, and an intuitive Material Design interface using the OpenWeatherMap API.",
-      "category": "Android Development",
+      "category": "Mobile App",
       "technologies": [
         "Java",
         "XML",
